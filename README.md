@@ -6,12 +6,14 @@ En este contexto se propone la construcción de una plataforma analítica de dat
 - Rundeck
 - Jupyter
 - MongoBD
+
 Donde Jupyter y MongoBD estarán instalados en VM1y Rundeck en VM2.
 
 ### Prerrequisitos de software 
 Previamente tener instalado Vangrant y VirtualBox en el Host.
-Vagrant (https://www.vagrantup.com/)
-VirtualBox (https://www.virtualbox.org/ )
+
+- Vagrant (https://www.vagrantup.com/)
+- VirtualBox (https://www.virtualbox.org/ )
 
 ### Instrucciones 
 1. Utilice este repositorio en su ordenador y ubíquese en el directorio. Es fundamental que usted tenga en su directorio de trabajo los siguientes archivos o scripts: 
@@ -75,7 +77,7 @@ Terminado este ítem, usted ya tiene una plataforma que le permitirá analizar d
 
 7. Ahora puede verificar la correcta configuración de Rundeck, para esto usted tiene que ingresar a mediante -> *vagrant ssh Rundeck*
 
-Una vez en la maquina ejecute las siguientes líneas 
+ Ejecute las siguientes líneas 
  ```
 sudo service rundeckd start
 tail -f /var/log/rundeck/service.
